@@ -1,0 +1,19 @@
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Configurações básicas
+title: Meu Site Pessoal
+description: Site pessoal criado com HTML, CSS e JavaScript
+url: https://minhaversao.github.io/meu-site-pessoal
+baseurl: ""
+
+# Configurações de produção
+host: 0.0.0.0
+port: 4000
+
+# Configurações do GitHub Pages
+github:
+  is_project_page: true
+  repository_url: https://github.com/minhaversao/meu-site-pessoal
