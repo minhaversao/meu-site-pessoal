@@ -3,73 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
+    <title>História do Rap - Portal da Cultura Hip-Hop</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Meu Site</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Portal da Cultura Hip-Hop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#historia">História do Rap</a></li>
+                    <li><a href="#mcs">MCs Consagrados</a></li>
+                    <li><a href="#cultura">Cultura e Resistência</a></li>
+                    <li><a href="#tecnica">Técnica e Arte</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="inicio" class="secao">
-            <h2>Início</h2>
-            <p>Este é um site pessoal criado para demonstrar minhas habilidades e projetos.</p>
+        <section id="banner">
+            <div class="container">
+                <h2>A Voz das Ruas</h2>
+                <p>Conheça a história e importância do Rap como manifestação cultural e ferramenta de transformação social</p>
+            </div>
         </section>
 
-        <section id="sobre" class="secao">
-            <h2>Sobre</h2>
-            <p>Sou um desenvolvedor web apaixonado por criar sites responsivos e interativos.</p>
+        <section id="historia" class="secao">
+            <div class="container">
+                <h2>História do Rap</h2>
+                <div class="flex-container">
+                    <div class="content">
+                        <p>O rap nasceu nos Estados Unidos na década de 1970, como uma das expressões do movimento hip-hop, junto com o breakdance e o grafite. O termo "rap" vem de "rhythm and poetry" (ritmo e poesia). Surgiu no Bronx, um dos bairros mais pobres de Nova York, como forma de expressão dos jovens negros e latinos.</p>
+                        <p>No Brasil, o rap chegou no final dos anos 1980, principalmente em São Paulo, nas periferias da cidade. Grupos como Racionais MC's, Thaide & DJ Hum e RZO foram pioneiros na cena nacional, trazendo letras que abordavam a realidade das comunidades, denunciando o racismo e a desigualdade social.</p>
+                        <p>O que começou como manifestação cultural das periferias se transformou em um dos movimentos musicais mais influentes do país, influenciando diversas gerações e ajudando a dar voz a quem normalmente não era ouvido pela sociedade.</p>
+                    </div>
+                    <div class="image">
+                        <img src="images/historia-rap.jpg" alt="História do Rap">
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="projetos" class="secao">
-            <h2>Projetos</h2>
-            <div class="card-container">
-                <div class="card">
-                    <h3>Projeto 1</h3>
-                    <p>Descrição do projeto 1.</p>
+        <section id="mcs" class="secao">
+            <div class="container">
+                <h2>MCs Consagrados</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="images/racionais.jpg" alt="Racionais MCs">
+                        <h3>Racionais MC's</h3>
+                        <p>Formado em 1988, o grupo composto por Mano Brown, Ice Blue, Edi Rock e KL Jay é considerado um dos mais importantes da história do rap nacional. Álbuns como "Sobrevivendo no Inferno" (1997) são referências na cultura brasileira.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/sabotage.jpg" alt="Sabotage">
+                        <h3>Sabotage</h3>
+                        <p>Mauro Mateus dos Santos, o Sabotage (1973-2003), foi uma das vozes mais autênticas do rap nacional. Seu único álbum solo, "Rap é Compromisso!", é considerado um clássico do gênero.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/djonga.jpg" alt="Djonga">
+                        <h3>Djonga</h3>
+                        <p>Representando a nova geração, Gustavo Pereira Marques é um dos maiores nomes do rap atual. Com letras contundentes sobre racismo e política, o rapper mineiro tem conquistado prêmios e reconhecimento internacional.</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Projeto 2</h3>
-                    <p>Descrição do projeto 2.</p>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="images/emicida.jpg" alt="Emicida">
+                        <h3>Emicida</h3>
+                        <p>Leandro Roque de Oliveira construiu uma carreira sólida misturando rap com diversos elementos da cultura brasileira. Além de rapper, é empresário e ativista cultural.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/karol-conka.jpg" alt="Karol Conká">
+                        <h3>Karol Conká</h3>
+                        <p>Uma das principais vozes femininas no rap brasileiro, Karoline dos Santos Oliveira mistura rap, MPB e elementos eletrônicos em seu trabalho.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/mv-bill.jpg" alt="MV Bill">
+                        <h3>MV Bill</h3>
+                        <p>Alex Pereira Barbosa é rapper, escritor e ativista social. Um dos pioneiros do movimento hip-hop no Rio de Janeiro, MV Bill utiliza sua arte como ferramenta de transformação social.</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Projeto 3</h3>
-                    <p>Descrição do projeto 3.</p>
+            </div>
+        </section>
+
+        <section id="cultura" class="secao">
+            <div class="container">
+                <h2>Cultura e Resistência</h2>
+                <div class="flex-container">
+                    <div class="image">
+                        <img src="images/cultura-hip-hop.jpg" alt="Cultura Hip-Hop">
+                    </div>
+                    <div class="content">
+                        <h3>O Rap e a História Negra</h3>
+                        <p>O rap é indissociável da história e da luta do povo negro. Como manifestação cultural, o rap descende diretamente de tradições africanas de contação de histórias e manifestações musicais da diáspora africana, como o blues, o jazz e o soul.</p>
+                        <p>No Brasil, o rap se tornou uma ferramenta fundamental para dar visibilidade à realidade das periferias e às questões raciais. Músicos como GOG, Rappin' Hood e Racionais MC's utilizaram suas letras para falar sobre a história negra, o racismo estrutural e a violência contra comunidades marginalizadas.</p>
+                        <h3>Transformação Social</h3>
+                        <p>O rap vai além da música – é um movimento cultural que criou escolas, projetos sociais e oportunidades econômicas nas periferias. Por meio do hip-hop, muitos jovens encontraram alternativas à violência e ao tráfico, transformando a arte em ferramenta de resistência e mudança.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnica" class="secao">
+            <div class="container">
+                <h2>Técnica e Arte</h2>
+                <div class="tecnica-grid">
+                    <div class="tecnica-item">
+                        <h3>Métrica</h3>
+                        <img src="images/metrica.jpg" alt="Métrica no Rap">
+                        <p>A métrica no rap se refere à contagem de sílabas em um verso e como elas se encaixam no compasso. Dominar diferentes métricas permite ao MC criar fluxos variados e se adaptar a diferentes batidas. Os rappers brasileiros costumam trabalhar com métricas como quaternário (4/4) e ternário (3/4).</p>
+                    </div>
+                    <div class="tecnica-item">
+                        <h3>Tipos de Rimas</h3>
+                        <img src="images/rimas.jpg" alt="Tipos de Rimas">
+                        <p>No rap, existem diversos tipos de rimas: simples (palavras com terminações iguais), internas (rimas dentro do mesmo verso), compostas (combinações de palavras que rimam), perfeitas (sons idênticos) e toantes (sons vocálicos semelhantes). A riqueza de rimas é uma marca dos grandes MCs.</p>
+                    </div>
+                    <div class="tecnica-item">
+                        <h3>Flow</h3>
+                        <img src="images/flow.jpg" alt="Flow no Rap">
+                        <p>Flow é a maneira como o rapper encaixa suas palavras na batida, criando um ritmo único. Ele envolve cadência, pausas, variação de velocidade e entonação. Cada MC desenvolve seu próprio flow, que funciona como uma assinatura pessoal. O flow é o que torna cada rapper único e reconhecível.</p>
+                    </div>
+                    <div class="tecnica-item">
+                        <h3>Compassos</h3>
+                        <img src="images/compasso.jpg" alt="Compassos no Rap">
+                        <p>O compasso define a estrutura rítmica da música. No rap, o compasso 4/4 é o mais comum, mas artistas experimentais trabalham com compassos diversos. Entender o compasso é fundamental para que o MC saiba quando começar e terminar seus versos e como variar seu flow mantendo-se no tempo da batida.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="contato" class="secao">
-            <h2>Contato</h2>
-            <form id="formulario-contato">
-                <div class="form-group">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea id="mensagem" name="mensagem" required></textarea>
-                </div>
-                <button type="submit">Enviar</button>
-            </form>
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p class="subtitle">Tem sugestões, correções ou quer contribuir com o site? Envie sua mensagem!</p>
+                <form id="formulario-contato">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2023 Portal da Cultura Hip-Hop. Todos os direitos reservados.</p>
+            <p>Este site foi criado com o propósito de valorizar e divulgar a cultura hip-hop e a história do rap, especialmente no Brasil.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">YouTube</a>
+                <a href="#" class="social-link">Twitter</a>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
